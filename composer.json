@@ -1,0 +1,14 @@
+{
+    "name": "jonursenbach/env_cond",
+    "description": "Conditional wrapper for the stock env() command in Laravel.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jon Ursenbach",
+            "email": "jon@ursenba.ch"
+        }
+    ],
+    "autoload": {
+        "files": ["src/env_cond.php"]
+    }
+}
