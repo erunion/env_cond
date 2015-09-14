@@ -3,11 +3,17 @@
 A conditional wrapper for the stock env() command in Laravel. If the environment variable is not present, the default
 value returned is dependent upon the current application environment.
 
+## Install
+
+```bash
+composer require erunion/env_cond
+```
+
 ## Usage
 
 Say you have a `config/services.php` that looks like this:
 
-```
+```php
 <?php
 
 return [
@@ -23,7 +29,7 @@ your entire team to change their default over to `dev2.app`.
 
 With `env_cond()`, developers just need to worry about settings that they **actually** want to change.
 
-```
+```php
 <?php
 
 return [

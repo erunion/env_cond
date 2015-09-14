@@ -1,5 +1,5 @@
 {
-    "name": "jonursenbach/env_cond",
+    "name": "erunion/env_cond",
     "description": "Conditional wrapper for the stock env() command in Laravel.",
     "license": "MIT",
     "authors": [
