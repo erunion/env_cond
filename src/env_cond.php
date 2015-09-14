@@ -12,7 +12,7 @@ function env_cond($key, $devDefault, $liveDefault) {
     // env() defaults to null, so since we want to make sure the environment variable doesn't exist, let's default to
     // something that, can reasonably be assumed, will never be used by anyone as an environment variable.
     $data = env($key, '<DOES NOT EXIST>');
-    if ($data !== false && $data !== '<DOES NOT EXIST>') {
+    if ($data !== '<DOES NOT EXIST>') {
         return $data;
     }
 
