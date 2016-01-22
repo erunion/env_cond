@@ -18,7 +18,7 @@ Say you have a `config/services.php` that looks like this:
 
 return [
     'aws' => [
-        's3_bucket' => env_cond('AWS_S3_BUCKET', 'cdn.app.com')
+        's3_bucket' => env('AWS_S3_BUCKET', 'cdn.app.com')
     ]
 ];
 ```
